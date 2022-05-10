@@ -90,8 +90,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: -0.000000007514972, y: 0.8878429, z: -0.4438623}
-    m_Extent: {x: 0.000000009536743, y: 0.8878429, z: 0.443862}
+    m_Center: {x: 0.0015939573, y: 0.88784415, z: -0.4455633}
+    m_Extent: {x: 0.000000009546056, y: 0.88789064, z: 0.44388554}
   m_DirtyAABB: 0
 --- !u!183 &572057086816341192
 Cloth:
@@ -102,7 +102,7 @@ Cloth:
   m_GameObject: {fileID: 121222907993858478}
   m_Enabled: 1
   m_StretchingStiffness: 1
-  m_BendingStiffness: 0
+  m_BendingStiffness: 0.4
   m_UseTethers: 1
   m_UseGravity: 1
   m_Damping: 0
@@ -114,7 +114,7 @@ Cloth:
   m_CollisionMassScale: 0
   m_UseContinuousCollision: 1
   m_UseVirtualParticles: 1
-  m_SolverFrequency: 120
+  m_SolverFrequency: 240
   m_SleepThreshold: 0.1
   m_Coefficients:
   - maxDistance: 3.4028235e+38
